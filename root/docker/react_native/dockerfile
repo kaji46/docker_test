@@ -1,7 +1,7 @@
 
 FROM node:14-alpine
 
-WORKDIR /usr/src/app/docekr-test-app
+WORKDIR /usr/src/app/docker-test-app
 
 RUN apk update && apk add bash
 
